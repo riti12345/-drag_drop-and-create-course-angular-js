@@ -1,0 +1,184 @@
+
+[
+{
+		"id": 1,
+		"title": "english activity workbook ",
+		"subject": "English,",
+		"grade" : "Grade:2",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 2,
+		"qIcon":"images/q.png",
+		"images": "images/eng1.jpg",
+		"remove":"images/remove.png"
+
+	},
+	 {
+		"id": 2,
+		"title": "teaching spelling ",
+		"subject": "English,",
+		"grade":  "Grade:2",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 0,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/eng2.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 3,
+		"title": "essential english",
+		"subject": "English,",
+		"grade":  "Grade:1",
+		"noOfVideos": 0,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/eng3.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 4,
+		"title": "english comprehension activity book",
+		"subject": "English,",
+		"grade":  "Grade:1",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 2,
+		"qIcon":"images/q.png",
+		"images": "images/eng4.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 5,
+		"title": "golden mathematics",
+		"subject": "Math,",
+		"grade":  "Grade:2",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/math1.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 6,
+		"title": "algebra survival guide",
+		"subject": "Math,",
+		"grade":  "Grade:8",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/math2.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 7,
+		"title": "calculus",
+		"subject": "Math,",
+		"grade":  "Grade:8",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/math3.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 8,
+		"title": "trigonometry",
+		"subject": "Math,",
+		"grade":  "Grade:9",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/math4.jpg",
+		"remove":"images/remove.png"
+	},
+
+
+	{
+		"id": 9,
+		"title": "bible science",
+		"subject": "Science,",
+		"grade":  "Grade:8",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/science.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 10,
+		"title": "awesome air",
+		"subject": "Science,",
+		"grade":  "Grade:2",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/science2.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 11,
+		"title": "particle physics",
+		"subject": "Science,",
+		"grade":  "Grade:8",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/science3.jpg",
+		"remove":"images/remove.png"
+	},
+
+	{
+		"id": 12,
+		"title": "chemical structure reactivity",
+		"subject": "Science,",
+		"grade":  "Grade:8",
+		"noOfVideos": 1,
+		"videoIcon":"images/video.png",
+		"noOfDocuments": 1,
+		"documentIcon":"images/pdf.png",
+		"noOfQuestions": 1,
+		"qIcon":"images/q.png",
+		"images": "images/science4.jpg",
+		"remove":"images/remove.png"
+	}
+
+]

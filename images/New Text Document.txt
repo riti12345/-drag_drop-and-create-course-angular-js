@@ -1,0 +1,119 @@
+eng1 -english activity workbook
+eng2 -teaching spelling
+eng3 -essential english
+eng4 -english comprehension activity book
+
+math1 -golden mathematics
+math2 -algebra survival guide
+math3 -calculus
+math4 -trigonometry
+
+science -bible science
+science2 -awesome air
+science3 -particle physics
+science4 -chemical structure reactivity
+
+[
+{
+id : 1,
+ title : "english activity workbook", 
+subject : "English",
+ grade : 2,
+ noOfVideos : 1,
+ noOfDocuments : 1,
+noOfQuestions : 2 ,
+images:"images/eng1.jpg"
+
+},
+{
+id : 2, 
+title : "teaching spelling",
+ subject : "English",
+ grade : 2,
+ noOfVideos : 1,
+noOfDocuments : 0,
+ noOfQuestions : 1, 
+images:"images/eng2.jpg"
+},
+
+{
+id : 3,
+ title : "essential english", 
+subject : "English",
+ grade : 1,
+ noOfVideos : 0,
+ noOfDocuments : 1,
+ noOfQuestions : 1,
+images:"images/eng3.jpg"
+},
+
+{
+id : 4, 
+title : "english comprehension activity book", 
+subject : "English", grade : 1, 
+noOfVideos : 1, 
+noOfDocuments : 1,
+ noOfQuestions : 2 ,
+images:"images/eng4.jpg"
+},
+
+{
+id : 5,
+ title : "golden mathematics",
+ subject : "Math", 
+grade : 2,
+ noOfVideos : 1, 
+noOfDocuments :1, 
+noOfQuestions : 1 ,
+images:"images/math1.jpg"
+},
+
+{
+id : 6,
+ title : "algebra survival guide", 
+subject : "Math",
+ grade : 8,
+ noOfVideos : 1,
+ noOfDocuments :1,
+ noOfQuestions : 1 ,
+images:"images/math2.jpg"
+},
+
+{
+id : 7,
+ title : "calculus", 
+subject : "Math",
+ grade : 11,
+ noOfVideos : 1,
+ noOfDocuments :1, 
+noOfQuestions : 1 ,
+images:"images/math3.jpg"
+},
+
+{
+id : 8,
+ title : "trigonometry", 
+subject : "Math",
+ grade : 8,
+ noOfVideos : 1,
+ noOfDocuments :1,
+ noOfQuestions : 1 ,
+images:"images/math4.jpg"
+},
+
+
+{
+id : 9,
+ title : "bible science", 
+subject : "Science",
+ grade : 8, 
+noOfVideos : 1,
+ noOfDocuments :1, 
+noOfQuestions : 1 ,
+images:"images/science.jpg"
+}
+{id : 10, title : "awesome air", subject : "Science", grade : 8, noOfVideos : 1, noOfDocuments :1, noOfQuestions : 1 ,images:"images/science2.jpg"},
+{id : 11, title : "particle physics", subject : "Science", grade : 8, noOfVideos : 1, noOfDocuments :1, noOfQuestions : 1 ,images:"images/science3.jpg"},
+{id : 12, title : "chemical structure reactivity", subject : "Science", grade : 8, noOfVideos : 1, noOfDocuments :1, noOfQuestions : 1 ,images:"images/science4.jpg"},
+
+]

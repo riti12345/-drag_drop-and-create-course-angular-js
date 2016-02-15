@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+    <title>Zaya lab create a course</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">  		
+</head>
+<body ng-controller="courseController" ng-app="sortableApp">
+<div class="container-fluid">
+		<nav class="nav navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand" style="color:#fff;margin-left:50px;"><strong>ZAYA</strong></a>
+				</div>
+		</nav>
+		<div class="row">
+			<div class="col-md-8">
+					<div class="head">
+						<h4>Drag and Drop Lessons To Create a Course</h4>
+							<div class="allTopic" >
+								 <select ng-model="query1" style="width:120px;height:35px;">
+								 <option value="">All Topic</option>
+								 <option value="{{course.subject}}">All Topic</option>
+								 <option value="English">English</option>
+								 <option value="Math">Mathematics</option>
+								 <option value="Science">science</option>
+  									</select>
+							</div>
+							<div class="allGrade">
+								<select ng-model="query2"style="width:120px;height:35px;">
+									<option value="">All Grades</option>
+									<option value="{{course.grade}}">All Grades</option>
+									<option value="Grade:1">Grade 1</option>
+									<option value="Grade:2">Grade 2</option>
+									<option value="Grade:8">Grade 8</option>
+									<option value="Grade:9">Grade 9</option>
+
+								</select>
+							</div>
+							<div class="search"><input ng-model="query"><img src="images/search.png" class="add_img"/></div>
+					</div>
+				<div class="displayleft example-animate-container">
+					<div ui-sortable="sortableOptions" class=" first animate-repeat" ng-model="courses">
+						<div ng-repeat="course in courses |filter:query1 | filter:query2| filter:query" class="left ">
+								<img class="image" ng-src="{{course.images}}"/>
+								<h2 class="title">{{course.title}}</h2>
+								<h3 class="subject">{{course.subject}}</h3>
+								<h3 class="grade">{{course.grade}}</h3>
+								<h4 class="no-of-videos">{{course.noOfVideos}}<img class="add_img" ng-src="{{course.videoIcon}}"/></h4>
+								<h4 class="no-of-documents">{{course.noOfDocuments}}<img class="add_img" ng-src="{{course.documentIcon}}"/></h4>
+								<h4 class="no-of-questions">{{course.noOfQuestions}}<img class="add_img" ng-src="{{course.qIcon}}"/></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-md-4">
+				<div class="right">
+					<div class="header">
+						<button class="btn btn-default" >cancle</button>
+					</div>
+					<div ng-repeat="topic in addtopic" class="create_course">
+						<label style="margin-left:20px;">{{$index}}<input type="text" class="topic" placeholder="Topic {{$index}}"/></label>
+							<div ng-repeat="course in lessons track by $index"class="topic_name" >{{course.title}}
+									<img class=" remove"  ng-click="lessons.splice($index, 1)"  ng-src="{{course.remove}}"/>
+							</div>
+								<div class="drag_drop_lesson" ng-model="addtopic">
+									<div ui-sortable="sortableOptions" class="lessons"ng-model="lessons">
+										<h4 style="margin-left:150px;">Drag to add more lessons</h4>
+									</div>
+								</div>
+					</div>
+					<div class="add_topic" ng-model="addtopic" >
+						<img ng-click="addtopic.push({})"class="add_img" src="images/add.png"/>Add Topic
+					</div>				
+						<button class="btn btn-default btn-primary" >create</button>
+				</div>
+			</div>
+		</div>
+</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+ 		 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.2/angular.min.js"></script>
+ 		 <script src="https://rawgithub.com/angular-ui/ui-sortable/angular1.2/src/sortable.js"></script>
+ 		<script type="text/javascript" src="controller.js"></script>
+			
+</body>
+</html>
